@@ -1,0 +1,146 @@
+/* General Styling */
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* Navi Bar */
+.navbar {
+    z-index: 999;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.fixed-top {
+    color: black !important;
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-top a {
+    color: black !important;
+}
+
+.fixed-top a:hover {
+    color: black !important;
+}
+
+.logo .logo-light {
+    display: inline-block;
+}
+
+.fixed-top .logo .logo-dark {
+    display: inline-block;
+}
+
+.fixed-top .logo .logo-light {
+    display: none;
+}
+
+.logo .logo-dark {
+    display: none;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.fixed-top .fa-bars {
+    color: black;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+/* Intro Section */
+.white-text {
+    color: white !important;
+}
+
+.intro-sec-bg {
+    background-color: #0000004a !important;
+    background-image: url(../images/bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.section {
+    position: relative;
+    background-color: white;
+}
+
+.intro-sec-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-sec-table-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Typed Effect on intro section */
+.wrap{
+    animation: caret 1s steps(1) infinite;
+    border-right: 0.08em solid white;
+    padding-right: 1px;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Progress Bar */
+.progress {
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.progress-bar {
+    background-color: black;
+}
+
+/* Service Section */
+.service-sec {
+    background-color: #f8f9fa !important;
+}
+
+/* Work Section */
+.work-sec {
+    background-color: #f8f9fa !important;
+}
+
+/* Footer */
+.footer-social a {
+    padding-right: 10px;
+}
