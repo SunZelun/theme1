@@ -20,7 +20,7 @@ try {
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');
+    $mail->setFrom('sunzelun90@gmail.com', 'Mailer');
     $mail->addAddress('szlweibo@gmail.com', 'Mail sending');     // Add a recipientoptional
 
     //Attachments
